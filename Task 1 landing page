@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Hero section styles */
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        /* CTA button styles */
+        .cta-button {
+            display: inline-block;
+            background-color: #FF5733;
+            color: #fff;
+            font-size: 20px;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #E64A2E;
+        }
+
+        /* Image styles */
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Your source for awesome content!</p>
+    </header>
+
+    <div class="hero">
+        <img src="https://www.travelstart.co.za/blog/wp-content/uploads/2020/02/Santorini-Greece.jpg" alt="Hero Image" width="500 px" height="300 px">
+        <img src="IMAGES/most-romantic-places-in-the-world-7.jpg" alt="Hero Image" width="500 px" height="400 px">
+        <img src="IMAGES/most-romantic-places-in-the-world-kyoto-japan.jpg" alt="Hero Image" width="500 px" height="400 px">
+        <img src="IMAGES/world-most-romantic-places-santorini.jpg" alt="Hero Image" width="500px" height="400 px">
+        <h1>Discover Amazing Things</h1>
+        <p>Join us on a journey to explore the world.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </div>
+</body>
+</html>
